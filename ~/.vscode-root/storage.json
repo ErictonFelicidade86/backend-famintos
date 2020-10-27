@@ -2,8 +2,8 @@
     "telemetry.machineId": "8c355f818691ce0bfdccfe1b67da2ad18944078d745427bbd4da94eccd6d22f8",
     "openedPathsList": {
         "workspaces3": [
-            "file:///home/erictonfelicidade/dev/laradock",
-            "file:///home/erictonfelicidade/dev/famintos"
+            "file:///home/erictonfelicidade/dev/famintos",
+            "file:///home/erictonfelicidade/dev/laradock"
         ],
         "files2": []
     },
@@ -588,7 +588,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -597,7 +598,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1467,8 +1469,8 @@
             "folder": "file:///home/erictonfelicidade/dev/famintos",
             "backupPath": "/home/erictonfelicidade/dev/famintos/~/.vscode-root/Backups/c2d5a3770a5a1c2b9521d17664232784",
             "uiState": {
-                "mode": 1,
-                "x": 101,
+                "mode": 0,
+                "x": 54,
                 "y": 64,
                 "width": 1173,
                 "height": 694
