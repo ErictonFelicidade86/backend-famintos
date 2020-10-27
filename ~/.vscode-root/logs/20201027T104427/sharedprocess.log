@@ -1,0 +1,15 @@
+[2020-10-27 10:44:30.803] [sharedprocess] [info] main {"machineId":"8c355f818691ce0bfdccfe1b67da2ad18944078d745427bbd4da94eccd6d22f8","windowId":2}
+[2020-10-27 10:44:30.841] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/erictonfelicidade/dev/famintos/~/.vscode-root/User/snippets'
+[2020-10-27 10:45:10.820] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-10-27 11:09:28.543] [sharedprocess] [info] Installing extension: ms-azuretools.vscode-docker
+[2020-10-27 11:09:40.523] [sharedprocess] [info] Downloaded extension: ms-azuretools.vscode-docker undefined
+[2020-10-27 11:09:40.851] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.ms-azuretools.vscode-docker-1.7.0: ms-azuretools.vscode-docker
+[2020-10-27 11:09:40.851] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ms-azuretools.vscode-docker-1.7.0
+[2020-10-27 11:09:40.854] [sharedprocess] [info] Installation completed. ms-azuretools.vscode-docker
+[2020-10-27 11:09:40.990] [sharedprocess] [info] Extensions installed successfully: ms-azuretools.vscode-docker
+[2020-10-27 14:30:51.104] [sharedprocess] [info] Installing extension: octref.vetur
+[2020-10-27 14:33:22.857] [sharedprocess] [info] Downloaded extension: octref.vetur undefined
+[2020-10-27 14:33:35.532] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.octref.vetur-0.28.0: octref.vetur
+[2020-10-27 14:33:35.532] [sharedprocess] [info] Renamed to /root/.vscode/extensions/octref.vetur-0.28.0
+[2020-10-27 14:33:35.534] [sharedprocess] [info] Installation completed. octref.vetur
+[2020-10-27 14:33:35.811] [sharedprocess] [info] Extensions installed successfully: octref.vetur

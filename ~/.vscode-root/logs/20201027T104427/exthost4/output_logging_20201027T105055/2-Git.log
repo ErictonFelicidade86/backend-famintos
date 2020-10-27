@@ -1,0 +1,90 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/erictonfelicidade/dev/laradock
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erictonfelicidade/dev/laradock/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :.env
+> git ls-files --stage -- /home/erictonfelicidade/dev/laradock/.env
+> git check-ignore -v -z --stdin
+> git show --textconv :docker-compose.yml
+> git ls-files --stage -- /home/erictonfelicidade/dev/laradock/docker-compose.yml
+> git cat-file -s cb056acad0fe5153862694710e0f58b7b03382a5
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :mysql/Dockerfile
+> git ls-files --stage -- /home/erictonfelicidade/dev/laradock/mysql/Dockerfile
+> git cat-file -s 870a5e461f15826b00566aecccad37b3e19779d5
+> git show --textconv :mysql/my.cnf
+> git ls-files --stage -- /home/erictonfelicidade/dev/laradock/mysql/my.cnf
+> git cat-file -s 1a6f23621ead3ba6d5a64f916c416ed69321de8b
+> git show --textconv :.env
+> git ls-files --stage -- /home/erictonfelicidade/dev/laradock/.env
+> git show --textconv :README-zh.md
+> git ls-files --stage -- /home/erictonfelicidade/dev/laradock/README-zh.md
+> git cat-file -s e50794b72aa93134f4cbbadec14453c07ed06453
+> git show --textconv :DOCUMENTATION/content/contributing/index.md
+> git ls-files --stage -- /home/erictonfelicidade/dev/laradock/DOCUMENTATION/content/contributing/index.md
+> git cat-file -s 4a39b2de576fd1a90eafffdbf92f5bc4e38f6ea3
+> git check-ignore -v -z --stdin
+> git show --textconv :DOCUMENTATION/content/documentation/index.md
+> git ls-files --stage -- /home/erictonfelicidade/dev/laradock/DOCUMENTATION/content/documentation/index.md
+> git cat-file -s cecfa39628fd0a763a2d674cb1b20f588c941902
+> git check-ignore -v -z --stdin
+> git show --textconv :php-fpm/php7.1.ini
+> git ls-files --stage -- /home/erictonfelicidade/dev/laradock/php-fpm/php7.1.ini
+> git cat-file -s 9bf5f6cee473e47b20e89d9b052f8bafec6ad458
+> git check-ignore -v -z --stdin
+> git show --textconv :varnish/Dockerfile
+> git ls-files --stage -- /home/erictonfelicidade/dev/laradock/varnish/Dockerfile
+> git cat-file -s 3139da786120519c07efba3dfa71de4a776a2af3
+> git check-ignore -v -z --stdin
+> git show --textconv :varnish/start.sh
+> git ls-files --stage -- /home/erictonfelicidade/dev/laradock/varnish/start.sh
+> git cat-file -s 8bdad94a91f7e6e16ac866df256750f0acdfaa0c
+> git check-ignore -v -z --stdin
+> git show --textconv :nginx/sites/default.conf
+> git ls-files --stage -- /home/erictonfelicidade/dev/laradock/nginx/sites/default.conf
+> git cat-file -s e02bb830bc99789e3ce2c94c202895132d3cfb2f
+> git check-ignore -v -z --stdin
+> git show --textconv :laravel-echo-server/laravel-echo-server.json
+> git ls-files --stage -- /home/erictonfelicidade/dev/laradock/laravel-echo-server/laravel-echo-server.json
+> git cat-file -s 0a98ef90ea55d10d4f2afe65ff7ee108388315b5
+> git check-ignore -v -z --stdin
+> git show --textconv :ide-codiad/config.php
+> git ls-files --stage -- /home/erictonfelicidade/dev/laradock/ide-codiad/config.php
+> git cat-file -s acd439418b8e7b73de4642702183e90e560a62e5
+> git check-ignore -v -z --stdin
+> git show --textconv :.env
+> git ls-files --stage -- /home/erictonfelicidade/dev/laradock/.env
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erictonfelicidade/dev/laradock/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :.env
+> git ls-files --stage -- /home/erictonfelicidade/dev/laradock/.env
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erictonfelicidade/dev/laradock/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/erictonfelicidade/dev/laradock/.env
+> git show --textconv :.env
+> git ls-files --stage -- /home/erictonfelicidade/dev/laradock/.env
