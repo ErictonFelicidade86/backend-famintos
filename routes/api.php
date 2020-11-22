@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ComandasController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 /*
@@ -19,8 +20,17 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::prefix('v1')->group(function () {
     Route::resources([
-        '/enderecos' => 'EnderecosController',
-        '/users' => 'UsersController'
+        '/users' => 'UsersController',
+        '/comandas' => 'ComandasController',
+        '/produtos' => 'ProdutosController',
+        '/categorias' => 'CategoriasController',
+        '/descricao' => 'ComandaDescricaoController'
         ]);
-});
 
+    Route::get('/comandas/{id}/detalhes','ComandasController@detalhes');
+    Route::get('/combos','CategoriasController@combos');
+    Route::get('/pizza','CategoriasController@pizza');
+    Route::get('/sanduishe','CategoriasController@sanduishe');
+    Route::get('/bebidas','CategoriasController@bebidas');
+
+});
